@@ -1,22 +1,23 @@
-import ChessTour._
+import ChessTour.{ChessBoard, KnightTour}
 import java.awt.Color
 
-val folder = "knight/"
-val b = ChessBoard.fromMask("knight/pi2_50.jpg", switch = true)
-val b = ChessBoard()
-/
-val k = new KnightTour(b)
 
 
-val t = k.warnsdorfsheuristic(random_tie_break=true, complete=true, n_trial = 1000)
+import ChessTour._
+val output_folder = "knight/" // define an output folder
 
-t.toString
+val board = ChessBoard.fromMask("knight/heart_30_3.png", switch=true)
+//val board = new ChessBoard((8,8))
+val knight = new KnightTour(board)
 
-t.draw(path=folder)
-t.simulate(cellsize = 50, nailsize = 15, path=folder, close=false, color=Color.RED)
+val tour = knight.warnsdorffsheuristic(random_tie_break=true, complete=true, closed=true, n_trials = 1000)
+tour.draw(path=output_folder)
 
-t.save(path=folder)
+tour.toString
 
+tour.simulate(cellsize = 50, nailsize = 15, path=output_folder, closed=true, color=Color.RED)
+
+tour.save(output_folder)
 
 //t.show()
 

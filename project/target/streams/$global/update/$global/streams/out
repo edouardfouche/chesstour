@@ -1,4 +1,4 @@
-[info] Updating {file:/home/fouchee/IdeaProjects/chesstour/project/}chesstour-build...
+[info] Updating {file:/home/fouchee/git/chesstour/project/}chesstour-build...
 [debug] :: resolving dependencies :: default#chesstour-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -6009,19 +6009,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 1006ms :: artifacts dl 27ms
-[debug] 	report for default#chesstour-build;0.1-SNAPSHOT compile produced in /home/fouchee/IdeaProjects/chesstour/project/target/resolution-cache/reports/default-chesstour-build-compile.xml
-[debug] 	report for default#chesstour-build;0.1-SNAPSHOT runtime produced in /home/fouchee/IdeaProjects/chesstour/project/target/resolution-cache/reports/default-chesstour-build-runtime.xml
-[debug] 	report for default#chesstour-build;0.1-SNAPSHOT test produced in /home/fouchee/IdeaProjects/chesstour/project/target/resolution-cache/reports/default-chesstour-build-test.xml
-[debug] 	report for default#chesstour-build;0.1-SNAPSHOT provided produced in /home/fouchee/IdeaProjects/chesstour/project/target/resolution-cache/reports/default-chesstour-build-provided.xml
-[debug] 	report for default#chesstour-build;0.1-SNAPSHOT optional produced in /home/fouchee/IdeaProjects/chesstour/project/target/resolution-cache/reports/default-chesstour-build-optional.xml
-[debug] 	report for default#chesstour-build;0.1-SNAPSHOT compile-internal produced in /home/fouchee/IdeaProjects/chesstour/project/target/resolution-cache/reports/default-chesstour-build-compile-internal.xml
-[debug] 	report for default#chesstour-build;0.1-SNAPSHOT runtime-internal produced in /home/fouchee/IdeaProjects/chesstour/project/target/resolution-cache/reports/default-chesstour-build-runtime-internal.xml
-[debug] 	report for default#chesstour-build;0.1-SNAPSHOT test-internal produced in /home/fouchee/IdeaProjects/chesstour/project/target/resolution-cache/reports/default-chesstour-build-test-internal.xml
-[debug] 	report for default#chesstour-build;0.1-SNAPSHOT plugin produced in /home/fouchee/IdeaProjects/chesstour/project/target/resolution-cache/reports/default-chesstour-build-plugin.xml
-[debug] 	report for default#chesstour-build;0.1-SNAPSHOT sources produced in /home/fouchee/IdeaProjects/chesstour/project/target/resolution-cache/reports/default-chesstour-build-sources.xml
-[debug] 	report for default#chesstour-build;0.1-SNAPSHOT docs produced in /home/fouchee/IdeaProjects/chesstour/project/target/resolution-cache/reports/default-chesstour-build-docs.xml
-[debug] 	report for default#chesstour-build;0.1-SNAPSHOT pom produced in /home/fouchee/IdeaProjects/chesstour/project/target/resolution-cache/reports/default-chesstour-build-pom.xml
-[debug] 	report for default#chesstour-build;0.1-SNAPSHOT scala-tool produced in /home/fouchee/IdeaProjects/chesstour/project/target/resolution-cache/reports/default-chesstour-build-scala-tool.xml
-[debug] 	resolve done (1006ms resolve - 27ms download)
+[debug] :: resolution report :: resolve 2172ms :: artifacts dl 28ms
+[debug] 	report for default#chesstour-build;0.1-SNAPSHOT compile produced in /home/fouchee/git/chesstour/project/target/resolution-cache/reports/default-chesstour-build-compile.xml
+[debug] 	report for default#chesstour-build;0.1-SNAPSHOT runtime produced in /home/fouchee/git/chesstour/project/target/resolution-cache/reports/default-chesstour-build-runtime.xml
+[debug] 	report for default#chesstour-build;0.1-SNAPSHOT test produced in /home/fouchee/git/chesstour/project/target/resolution-cache/reports/default-chesstour-build-test.xml
+[debug] 	report for default#chesstour-build;0.1-SNAPSHOT provided produced in /home/fouchee/git/chesstour/project/target/resolution-cache/reports/default-chesstour-build-provided.xml
+[debug] 	report for default#chesstour-build;0.1-SNAPSHOT optional produced in /home/fouchee/git/chesstour/project/target/resolution-cache/reports/default-chesstour-build-optional.xml
+[debug] 	report for default#chesstour-build;0.1-SNAPSHOT compile-internal produced in /home/fouchee/git/chesstour/project/target/resolution-cache/reports/default-chesstour-build-compile-internal.xml
+[debug] 	report for default#chesstour-build;0.1-SNAPSHOT runtime-internal produced in /home/fouchee/git/chesstour/project/target/resolution-cache/reports/default-chesstour-build-runtime-internal.xml
+[debug] 	report for default#chesstour-build;0.1-SNAPSHOT test-internal produced in /home/fouchee/git/chesstour/project/target/resolution-cache/reports/default-chesstour-build-test-internal.xml
+[debug] 	report for default#chesstour-build;0.1-SNAPSHOT plugin produced in /home/fouchee/git/chesstour/project/target/resolution-cache/reports/default-chesstour-build-plugin.xml
+[debug] 	report for default#chesstour-build;0.1-SNAPSHOT sources produced in /home/fouchee/git/chesstour/project/target/resolution-cache/reports/default-chesstour-build-sources.xml
+[debug] 	report for default#chesstour-build;0.1-SNAPSHOT docs produced in /home/fouchee/git/chesstour/project/target/resolution-cache/reports/default-chesstour-build-docs.xml
+[debug] 	report for default#chesstour-build;0.1-SNAPSHOT pom produced in /home/fouchee/git/chesstour/project/target/resolution-cache/reports/default-chesstour-build-pom.xml
+[debug] 	report for default#chesstour-build;0.1-SNAPSHOT scala-tool produced in /home/fouchee/git/chesstour/project/target/resolution-cache/reports/default-chesstour-build-scala-tool.xml
+[debug] 	resolve done (2172ms resolve - 28ms download)
 [info] Done updating.

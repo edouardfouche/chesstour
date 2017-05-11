@@ -4,9 +4,19 @@ import javax.imageio.ImageIO
 
 import ChessTour._
 
-val image = ImageIO.read(new File("knight/pi2_50.jpg"))
+val folder = "knight/knight/best/"
+val t = ChessTour.load("knight/knight/best/585997308")
+//t.simulate(cellsize = 70, nailsize = 0, path=folder, close=false, color=Color.BLACK, line_width = 10f)
+
+/*
+val b = new ChessBoard((24,16))
+val k = new KnightTour(b)
+
+val cl = k.getClass().getName()
 
 
-image.getRGB(0, 0)
+new ChessTour.KnightTour
 
-image.getRGB(10, 25)
+val a = (1,2,3)
+
+a.getClass
