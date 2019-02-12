@@ -2,10 +2,10 @@ import java.awt.Color
 import java.io.File
 import javax.imageio.ImageIO
 
-import ChessTour._
+import chesstour._
 
 val folder = "knight/knight/best/"
-val t = ChessTour.load("knight/knight/best/585997308")
+val t = chesstour.load("knight/knight/best/585997308")
 //t.simulate(cellsize = 70, nailsize = 0, path=folder, close=false, color=Color.BLACK, line_width = 10f)
 
 /*

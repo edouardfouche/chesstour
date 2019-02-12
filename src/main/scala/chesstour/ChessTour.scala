@@ -124,7 +124,7 @@ trait ChessTour {
     * @param color Color of the tour path.
     * @param path Path to a folder where the file should be written.
     * */
-  def simulate(cellSize:Int = 50, nailSize:Int = 4, lineWidth:Float=4f, closed: Boolean=false, color:Color=Color.black, path:String): Boolean = {
+  def simulate(cellSize:Int = 50, nailSize:Int = 4, linewidth:Float=4f, closed: Boolean=false, color:Color=Color.black, path:String): Boolean = {
     val circlesize = cellSize * (1.0/5.0)
     val size = (board.size._1*cellSize, board.size._2*cellSize)
     val canvas = new BufferedImage(size._1, size._2, BufferedImage.TYPE_INT_RGB)
@@ -134,9 +134,9 @@ trait ChessTour {
     initialize_drawing(g, size, cellSize, draw_mesh = false)
     // draw filled circle at start
 
-    drawboard(g, tour._1, cellSize, circlesize.toInt, tour._2, color=color, lineWidth=lineWidth)
+    drawboard(g, tour._1, cellSize, circlesize.toInt, tour._2, color=color, linewidth=linewidth)
 
-    if(closed) draw_line(g, tour._1, get_last_pos(), cellSize, color, lineWidth=lineWidth)
+    if(closed) draw_line(g, tour._1, get_last_pos(), cellSize, color, linewidth=linewidth)
 
     //if(nail_onway) drawnails_onway(g, tour._1, cellsize, nailsize, tour._2, color=color)
     //else draw_nails(g, size, cellsize, nailsize)
